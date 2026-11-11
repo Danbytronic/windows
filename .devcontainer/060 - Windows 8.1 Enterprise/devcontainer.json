@@ -7,7 +7,7 @@
     "ALLOCATE": "Y",
     "WIDTH": "1920",
     "HEIGHT": "1080",
-    "DISK_SIZE": "32G",
+    "DISK_SIZE": "21G",
     "VGA": "qxl"
   },
   "forwardPorts": [8006],
