@@ -2,7 +2,13 @@
   "name": "Windows 8.1 Enterprise",
   "service": "windows",
   "containerEnv": {
-    "VERSION": "8e"
+    "VERSION": "8e",
+    "AUDIO": "Y",
+    "ALLOCATE": "Y",
+    "WIDTH": "1920",
+    "HEIGHT": "1080",
+    "DISK_SIZE": "32G",
+    "VGA": "qxl"
   },
   "forwardPorts": [8006],
   "portsAttributes": {
