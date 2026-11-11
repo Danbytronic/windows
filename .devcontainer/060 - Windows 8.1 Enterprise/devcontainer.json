@@ -5,8 +5,8 @@
     "VERSION": "8e",
     "AUDIO": "Y",
     "ALLOCATE": "Y",
-    "WIDTH": "1920",
-    "HEIGHT": "1080",
+    "WIDTH": "1600",
+    "HEIGHT": "900",
     "DISK_SIZE": "24G",
     "VGA": "qxl"
   },
