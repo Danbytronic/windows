@@ -4,11 +4,11 @@
   "containerEnv": {
     "VERSION": "8e",
     "AUDIO": "Y",
-    "ALLOCATE": "Y",
+    "ALLOCATE": "N",
     "WIDTH": "1600",
     "HEIGHT": "900",
-    "DISK_SIZE": "24G",
-    "VGA": "qxl"
+    "DISK_SIZE": "25G",
+    "VGA": "virtio"
   },
   "forwardPorts": [8006],
   "portsAttributes": {
