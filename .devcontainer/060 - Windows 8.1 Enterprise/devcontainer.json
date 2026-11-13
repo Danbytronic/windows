@@ -7,10 +7,19 @@
     "ALLOCATE": "N",
     "WIDTH": "1600",
     "HEIGHT": "900",
-    "DISK_SIZE": "25G",
-    "VGA": "virtio"
+    "DISK_SIZE": "23G",
+    "DISK_TYPE": "scsi",
+    "DISK_DISCARD": "unmap",
+    "DISK_ROTATION": "1",
+    "DISK_FMT": "qcow2",
+    "DISK_CACHE": "writeback",
+    "DISK_IO": "threads",
+    "REMOVE": "N",
+    "VGA": "qxl"
   },
-  "forwardPorts": [8006],
+  "forwardPorts": [
+    8006
+  ],
   "portsAttributes": {
     "8006": {
       "label": "Web",
@@ -19,7 +28,7 @@
   },
   "otherPortsAttributes": {
     "onAutoForward": "ignore"
-  }, 
+  },
   "dockerComposeFile": "../codespaces.yml",
   "initializeCommand": "docker system prune --all --force"
 }
