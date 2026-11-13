@@ -7,7 +7,7 @@
     "ALLOCATE": "N",
     "WIDTH": "1600",
     "HEIGHT": "900",
-    "DISK_SIZE": "23G",
+    "DISK_SIZE": "25G",
     "DISK_TYPE": "scsi",
     "DISK_DISCARD": "unmap",
     "DISK_ROTATION": "1",
